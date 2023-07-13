@@ -1,0 +1,142 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .top {
+        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .header {
+        background-color: #222;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header__img {
+        padding-left: 231px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-right: 41px;
+    }
+    
+    .icon__img {
+        padding-top: 28px;
+        padding-bottom: 20px;
+        padding-right: 859px;
+    }
+    
+    .icon {
+        padding-top: 28px;
+        padding-bottom: 20px;
+        padding-right: 40px;
+    }
+    
+    .section1 {
+        background-color: #F1E4E6;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #mydiv {
+        color: #222;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        padding-bottom: 381px;
+        padding-right: 331px;
+        padding-top: 290px;
+        padding-left: 92px;
+    }
+    
+    #mydiv a {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    #mydiv b {
+        color: #F16D7F;
+    }
+    
+    .section2 {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 360px);
+        justify-content: center;
+        padding-top: 65px;
+        padding-bottom: 96px;
+    }
+    
+    .items {
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        justify-items: center;
+        gap: 30px;
+        justify-content: center;
+    }
+    
+    .item {
+        background-color: #F8F8F8;
+    }
+    
+    h1 {
+        color: #222;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+    }
+    
+    p {
+        color: #9F9F9F;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 18px;
+    }
+    
+    h2 {
+        color: #000;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 13px;
+    }
+    
+    .prise {
+        color: #F16D7F;
+    }
+    
+    .button__style {
+        color: #FF6A6A;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 15px 39px;
+        text-decoration: none;
+        background-color: white;
+        margin-right: 14px;
+        border: 1px solid #FF6A6A;
+        margin-top: 48px;
+        margin-bottom: 60px;
+        margin-left: 813px;
+        margin-right: 695px;
+    }
+    
+    .button__style:hover {
+        border: 1px solid transparent;
+        color: #FF6A6A;
+        background-color: #fff;
+        transition: all 0.3s;
+    }
